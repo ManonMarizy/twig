@@ -1,0 +1,19 @@
+{% extends 'base.html.twig' %}
+{% block title %}
+    Candies
+{% endblock %}
+{% block content %}
+    <div class="container">
+        <div class="row">
+            {% for product in products %}
+                <div class="card col-4">
+                    <div class="card-body">
+                        {{ product }}
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+
+{% endblock %}
+

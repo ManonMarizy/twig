@@ -1,0 +1,13 @@
+{
+    "name": "manon/twig",
+    "description": "\"Quest on twig\"",
+    "authors": [
+        {
+            "name": "ManonMarizy",
+            "email": "manon.marizy@gmail.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "^3.1"
+    }
+}
